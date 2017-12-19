@@ -1,0 +1,34 @@
+src/*.exe
+src/logicrypt
+src/logicryptd
+src/test_logicrypt
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.logicrypt
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+logicrypt-qt
+logicrypt-Qt.app
+
+# Unit-tests
+Makefile.test
+logicrypt-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
